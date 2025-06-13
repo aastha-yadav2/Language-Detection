@@ -1,78 +1,75 @@
-# 🌐 Language Detection Machine Learning Model
+# 🌐 Language Detection using Naive Bayes
 
-This project is a **machine learning model** that automatically detects the language of a given input text using **Naive Bayes classification**. It was developed using **Google Colab** and is built with core Python libraries such as **NumPy**, **Pandas**, and **Scikit-learn**.
+This project is a beginner-level machine learning model that detects the **language of a given text** using a **Naive Bayes Classifier**. It helped me understand the foundation of text processing and model training in machine learning.
 
-The model performs feature extraction on textual data, splits the dataset into training and testing sets, and trains a Naive Bayes classifier to predict the language of input text.
+## 📌 Project Overview
 
----
+This notebook-based project performs:
+- Feature extraction using `CountVectorizer`
+- Splitting data with `train_test_split`
+- Training a `MultinomialNB` model from `scikit-learn`
+- Evaluating predictions on multilingual input text
 
-## 📁 Project Structure
-
-- `Language_Detection_Model.ipynb` — Jupyter Notebook (hosted on Google Colab)
-- `language_detection_model.pkl` — Saved ML model using `joblib` (optional)
-- `README.md` — Project documentation
-
----
-
-## 📌 Key Features
-
-- Multilingual text detection
-- Preprocessing and feature extraction using `CountVectorizer`
-- Model training and testing using `train_test_split` and `MultinomialNB`
-- Accuracy evaluation
-- Google Colab notebook: easy to run and experiment with
+Developed entirely on **Google Colab**.
 
 ---
 
-## 🛠️ Technologies Used
+## 🧰 Tech Stack
 
 - Python
-- Google Colab
 - NumPy
 - Pandas
 - Scikit-learn
-- Naive Bayes Classifier
-- Joblib
+- Google Colab
+- Jupyter Notebook (`.ipynb`)
 
 ---
 
-## 🚀 Try It Yourself
+## 📁 Dataset
 
-Click the badge below to run the model directly in Google Colab:
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1UrLZhbpMffMSLguL6Jc4wWH18mfvrdSI?usp=sharing)
-
-> 🔍 No installation required — just open and run the notebook!
+The dataset includes labeled text samples in multiple languages and is preloaded in the notebook.
 
 ---
 
-## 🎬 Demo
+## 🚀 Run the Project
 
-📽️ A full working **demo video** of the project is available in my [LinkedIn post](https://www.linkedin.com/in/your-profile/).  
-Watch it to see the model in action!
-
----
-
-## 📈 Results
-
-- Accurate detection across various languages.
-- Efficient performance using classical ML techniques.
-- Easily extendable with new languages and more data.
+👉 [Try it on Google Colab](https://colab.research.google.com/drive/1UrLZhbpMffMSLguL6Jc4wWH18mfvrdSI?usp=sharing)
 
 ---
 
-## 🤝 Let's Connect
+## 📽️ Demo & LinkedIn Post
 
-I'd love to hear your thoughts or feedback! Feel free to reach out or connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile/).
+Check out my detailed demo and explanation on LinkedIn:
 
----
-
-## 📎 Quick Access
-
-- 📗 [Google Colab Notebook](https://colab.research.google.com/drive/1UrLZhbpMffMSLguL6Jc4wWH18mfvrdSI?usp=sharing)
+🔗 [LinkedIn Post](https://www.linkedin.com/posts/aastha-yadav-89b41a332_machinelearning-nlp-languagedetection-activity-7339185441318871040-esRU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFO2KXcBCrgNpGj3cuUxXWeJAfFFrDTM-fM)
 
 ---
 
-## 📜 License
+## 💡 Learning Note
 
-This project is for educational and research purposes.
+This is my **first machine learning project**, and I followed a helpful **YouTube tutorial** to complete it. I learned:
+- Preprocessing for NLP
+- Model training with Naive Bayes
+- Using Scikit-learn in Colab
+- Interpreting predictions
+
+Excited to take on more advanced ML challenges next!
+
+---
+
+## 📂 GitHub Repository
+
+👉 [View the Full Project on GitHub](https://github.com/aastha-yadav2/Language-Detection)
+
+---
+
+## 🤝 Connect with Me
+
+- LinkedIn: [Aastha Yadav](https://www.linkedin.com/in/aastha-yadav-89b41a332/)
+- GitHub: [aastha-yadav2](https://github.com/aastha-yadav2)
+
+---
+
+## 📌 Tags
+
+`#MachineLearning` `#NLP` `#LanguageDetection` `#NaiveBayes` `#GoogleColab` `#Python` `#FirstProject` `#StudentProjects` `#LinkedInProject`
