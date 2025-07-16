@@ -2,6 +2,9 @@
 
 This project is a beginner-level machine learning model that detects the **language of a given text** using a **Naive Bayes Classifier**. It helped me understand the foundation of text processing and model training in machine learning.
 
+
+🔗 [Live Demo](https://language-detection-egpucqwrwudwtfyxdxexyl.streamlit.app/)
+
 ## 📌 Project Overview
 
 This notebook-based project performs:
